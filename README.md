@@ -34,7 +34,7 @@ bin/logstash-plugin install logstash-codec-cef_shortkey-0.1.0-java.gem
 input { stdin{ codec => cef_shortkey{}} }
 ```
 
-### reference
+### References
 - https://www.elastic.co/guide/en/logstash/current/plugins-codecs-cef.html
 - https://github.com/logstash-plugins/logstash-codec-cef
 - https://www.elastic.co/guide/en/logstash/current/_how_to_write_a_logstash_codec_plugin.html
